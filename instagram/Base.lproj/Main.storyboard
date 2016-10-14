@@ -165,22 +165,21 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ti1-3" translatesAutoresizingMaskIntoConstraints="NO" id="0Z1-Vh-mVw">
-                                <frame key="frameInset" minX="47" minY="265" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ti3-3" translatesAutoresizingMaskIntoConstraints="NO" id="E2N-cj-sXU">
-                                <frame key="frameInset" minX="214" minY="265" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ti4-3" translatesAutoresizingMaskIntoConstraints="NO" id="X0w-tP-Epp">
-                                <frame key="frameInset" minX="305" minY="265" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ti2-3" translatesAutoresizingMaskIntoConstraints="NO" id="FUw-uM-omr">
-                                <frame key="frameInset" minX="131" minY="265" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5bV-zc-mLR">
+                                <frame key="frameInset" minX="1" height="44" maxX="-1" maxY="364"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="awi-be-3T1"/>
+                                    <barButtonItem image="ti1" id="iH0-eg-42i"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="tse-n1-JSA"/>
+                                    <barButtonItem image="ti2" id="wMC-vn-oc7"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="5lz-OG-Bln"/>
+                                    <barButtonItem image="ti3" width="41" id="ELa-71-gWe"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="ggo-Rx-I0M"/>
+                                    <barButtonItem image="ti4" id="k7c-IS-YJ1"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="3PY-yO-Mx6"/>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -228,9 +227,9 @@
         <image name="img8" width="250" height="250"/>
         <image name="img9" width="250" height="250"/>
         <image name="profile" width="250" height="250"/>
-        <image name="ti1-3" width="31" height="31"/>
-        <image name="ti2-3" width="31" height="31"/>
-        <image name="ti3-3" width="31" height="31"/>
-        <image name="ti4-3" width="31" height="31"/>
+        <image name="ti1" width="31" height="31"/>
+        <image name="ti2" width="31" height="31"/>
+        <image name="ti3" width="31" height="31"/>
+        <image name="ti4" width="31" height="31"/>
     </resources>
 </document>
